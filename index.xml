@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo Store</title>
+    <link>/</link>
+    <description>Recent content on Demo Store</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 May 2018 19:17:35 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boots</title>
+      <link>/products/boots/</link>
+      <pubDate>Wed, 16 May 2018 19:17:35 +0000</pubDate>
+      
+      <guid>/products/boots/</guid>
+      <description>Boot Up Conquer any terrain with boots.</description>
+    </item>
+    
+    <item>
+      <title>Knife</title>
+      <link>/products/knife/</link>
+      <pubDate>Wed, 16 May 2018 19:09:25 +0000</pubDate>
+      
+      <guid>/products/knife/</guid>
+      <description> Stab in the Dark Or in the light.
+Features  It&amp;rsquo;s sharp Camo handle Optional engraving  </description>
+    </item>
+    
+    <item>
+      <title>Plane</title>
+      <link>/products/plane/</link>
+      <pubDate>Tue, 15 May 2018 19:17:09 +0000</pubDate>
+      
+      <guid>/products/plane/</guid>
+      <description>Scrape By Ideal for the woodworking purist.
+Ready For Takeoff Plane will get you where you want to go.</description>
+    </item>
+    
+    <item>
+      <title>Gloves</title>
+      <link>/products/gloves/</link>
+      <pubDate>Tue, 15 May 2018 19:06:23 +0000</pubDate>
+      
+      <guid>/products/gloves/</guid>
+      <description> Save Your Skin Never work with naked hands again.
+Includes  1 left glove 1 right glove Total fingers: 10  </description>
+    </item>
+    
+    <item>
+      <title>Axe</title>
+      <link>/products/axe/</link>
+      <pubDate>Tue, 15 May 2018 18:53:23 +0000</pubDate>
+      
+      <guid>/products/axe/</guid>
+      <description>Built for Hackers Featuring a polished wooden handle and steel blade
+Cleave it Alone With axe, you can chop your problems down to size</description>
+    </item>
+    
+    <item>
+      <title>Chainsaw</title>
+      <link>/products/chainsaw/</link>
+      <pubDate>Tue, 15 May 2018 18:42:04 +0000</pubDate>
+      
+      <guid>/products/chainsaw/</guid>
+      <description> Features  Chain Saw  Ideal For  Cuttin&amp;rsquo;  Choose Your Engine Size  30cc 50cc (+50.00)  </description>
+    </item>
+    
+  </channel>
+</rss>

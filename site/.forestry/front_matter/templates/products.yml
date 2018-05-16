@@ -2,6 +2,11 @@
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: Title
+  label: Title
+  config:
+    required: true
 - type: number
   config:
     step: ".01"

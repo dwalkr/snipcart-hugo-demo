@@ -1,6 +1,5 @@
 +++
 cartImage = "/uploads/2018/05/15/gloves-thumb.jpg"
-categories = ["Tools"]
 date = "2018-05-15T19:06:23+00:00"
 image = "/uploads/2018/05/15/gloves.jpg"
 price = 10

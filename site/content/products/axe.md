@@ -1,6 +1,5 @@
 +++
 cartImage = "/uploads/2018/05/15/axe-thumb.jpg"
-categories = ["Tools"]
 customOptions = []
 date = "2018-05-15T18:53:23+00:00"
 image = "/uploads/2018/05/15/axe.jpg"

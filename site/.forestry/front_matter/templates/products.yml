@@ -12,9 +12,6 @@ fields:
   name: shortDescription
   label: Short Description
   description: Shows on product and cart pages
-- type: tag_list
-  name: categories
-  label: Categories
 - type: file
   name: image
   label: Image

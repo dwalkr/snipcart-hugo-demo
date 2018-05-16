@@ -8,7 +8,7 @@
     data-item-description="{{ . }}"
     {{ end }}
     {{ with .Params.cartImage }}
-    data-item-image="{{ . | absURL }}"
+    data-item-image="{{ . | relURL }}"
     {{ end }}
     {{ with .Params.customOptions }}
         {{- range $index, $option := . -}}

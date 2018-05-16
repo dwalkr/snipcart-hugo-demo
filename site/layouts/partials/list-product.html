@@ -1,6 +1,6 @@
 {{ with .Params.image }}
 <div class="product__image">
-    <img src="{{ . | absURL }}" />
+    <img src="{{ . | relURL }}" />
 </div>
 {{ else }}
 <!-- placeholder image -->

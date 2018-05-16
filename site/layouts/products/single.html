@@ -3,7 +3,7 @@
 <div class="product columns">
     {{ with .Params.image }}
     <div class="product__image column is-half">
-        <img src="{{ . | absURL }}" />
+        <img src="{{ . | relURL }}" />
     </div>
     {{ end }}
     <div class="product__essential column is-half">

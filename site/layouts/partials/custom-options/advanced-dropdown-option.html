@@ -1,0 +1,7 @@
+{{ partial "custom-options/text-option" . }}
+{{- $numOptions := len .Option.options -}}
+data-item-custom{{ .Index }}-options="
+{{- range $index, $option := .Option.options -}}
+    {{- $option.optionName -}}[{{- if ge $option.priceAdjustment 0 -}}+{{- end -}}{{- $option.priceAdjustment -}}]
+    {{- if ne (add 1 $index) $numOptions -}}|{{- end -}}
+{{- end -}}"

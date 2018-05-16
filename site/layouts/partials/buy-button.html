@@ -1,0 +1,20 @@
+<button
+    class="button is-primary snipcart-add-item"
+    data-item-id="{{ .URL }}"
+    data-item-name="{{ .Title }}"
+    data-item-price="{{ .Params.price }}"
+    data-item-url="{{ .Permalink }}"
+    {{ with .Params.shortDescription }}
+    data-item-description="{{ . }}"
+    {{ end }}
+    {{ with .Params.cartImage }}
+    data-item-image="{{ . | absURL }}"
+    {{ end }}
+    {{ with .Params.customOptions }}
+        {{- range $index, $option := . -}}
+        {{ safeHTMLAttr (partial (printf "custom-options/%s" .template) (dict "Index" (add 1 $index) "Option" $option)) }}
+        {{- end -}}
+    {{ end }}
+>
+Buy {{ .Title }}
+</button>

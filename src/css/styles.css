@@ -1,0 +1,73 @@
+/*
+ The default CSS file.
+
+ You can use @import here to include CSS inside folders
+*/
+
+@import "bulma/css/bulma.css";
+@import "imports/reset.css";
+
+#mainContainer {
+  padding-top: 1.2em;
+}
+
+.product.columns {
+  align-items: center;
+}
+.product__essential {
+  font-size: 2em;
+  max-width: 15em;
+  margin: 0 auto;
+}
+
+.product__actions {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  > * {
+    margin: 0 10px;
+  }
+}
+
+.product__description {
+  max-width: 50em;
+  padding: 15px;
+  margin: 5em auto;
+  .buy-button {
+    text-align: center;
+    margin-top: 2em;
+    > .button {
+      font-size: 1.4em;
+    }
+  }
+}
+
+.products.columns {
+  flex-wrap: wrap;
+  > .product {
+    margin-bottom: 2.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product__image {
+    flex-grow: 1;
+    background: #efecec;
+  }
+  .product__actions {
+    align-items: stretch;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    > .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.product__links > .button {
+  margin-bottom: 2px;
+}

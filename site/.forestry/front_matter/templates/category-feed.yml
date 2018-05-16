@@ -1,0 +1,9 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: category
+  label: Category
+  config:
+    required: true

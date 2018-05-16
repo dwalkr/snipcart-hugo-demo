@@ -1,0 +1,8 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: include
+  template: base-product-option
+  label: Essential
+  name: essential

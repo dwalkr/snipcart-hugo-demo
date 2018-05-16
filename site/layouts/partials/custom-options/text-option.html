@@ -1,0 +1,4 @@
+data-item-custom{{ .Index }}-name="{{ .Option.name }}"
+{{- if .Option.required -}}
+data-item-custom{{ .Index }}-required="true"
+{{- end -}}

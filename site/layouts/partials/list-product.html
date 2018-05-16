@@ -1,0 +1,17 @@
+{{ with .Params.image }}
+<div class="product__image">
+    <img src="{{ . | absURL }}" />
+</div>
+{{ else }}
+<!-- placeholder image -->
+{{ end }}
+<div class="product__actions columns">
+<h3 class="title is-4 column is-one-half">
+    {{ .Title }}
+    <div class="product__price subtitle is-4">{{ partial "price" (dict "price" .Params.price "currency" .Site.Params.currency)}}</div>
+</h3>
+<div class="product__links column is-one-half">
+    <a class="button is-primary" href="{{ .Permalink }}">View Details</a>
+    {{ partial "buy-button" . }}
+</div>
+</div>

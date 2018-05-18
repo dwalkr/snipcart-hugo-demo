@@ -1,6 +1,6 @@
 +++
 cartImage = "/uploads/2018/05/15/plane-thumb.jpg"
-customOptions = ""
+customOptions = []
 date = "2018-05-15T19:17:09+00:00"
 image = "/uploads/2018/05/15/plane.jpg"
 price = 75

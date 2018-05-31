@@ -1,5 +1,4 @@
 +++
-cartImage = "/uploads/2018/05/16/boots-thumb.jpg"
 date = "2018-05-16T19:17:35Z"
 image = "/v1527779598/snipcart-hugo-demo/boots.jpg"
 price = 60

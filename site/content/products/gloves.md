@@ -1,5 +1,4 @@
 +++
-cartImage = "/uploads/2018/05/15/gloves-thumb.jpg"
 date = "2018-05-15T19:06:23Z"
 image = "/v1527779589/snipcart-hugo-demo/gloves.jpg"
 price = 10

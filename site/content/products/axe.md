@@ -1,5 +1,4 @@
 +++
-cartImage = "/uploads/2018/05/15/axe-thumb.jpg"
 customOptions = []
 date = "2018-05-15T18:53:23Z"
 image = "/v1527779588/snipcart-hugo-demo/axe.jpg"

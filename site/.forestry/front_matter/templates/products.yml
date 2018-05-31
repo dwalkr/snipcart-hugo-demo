@@ -21,10 +21,6 @@ fields:
   name: image
   label: Image
   description: Displays on product page
-- type: file
-  name: cartImage
-  label: Cart Image
-  description: Upload a 50x50 image to display in shopping cart
 - type: blocks
   name: customOptions
   label: Custom Options

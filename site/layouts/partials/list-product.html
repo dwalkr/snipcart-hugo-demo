@@ -1,6 +1,6 @@
 {{ with .Params.image }}
 <div class="product__image">
-    <img src="{{ . | relURL }}" />
+    {{ partial "images/list-product" (dict "image" . "baseURL" $.Site.Params.cloudinary_base_url) }}
 </div>
 {{ else }}
 <!-- placeholder image -->

@@ -3,7 +3,7 @@
 <div class="product columns">
     {{ with .Params.image }}
     <div class="product__image column is-half">
-        <img src="{{ . | relURL }}" />
+            {{ partial "images/single-product" (dict "image" . "baseURL" $.Site.Params.cloudinary_base_url) }}
     </div>
     {{ end }}
     <div class="product__essential column is-half">

@@ -41,6 +41,7 @@ author = "Your name"
 currency = "USD"
 snipcart_test_api_key = ""
 snipcart_live_api_key = ""
+cloudinary_base_url = "https://res.cloudinary.com/dwalkr"
 
 [taxonomies]
   category = "categories"

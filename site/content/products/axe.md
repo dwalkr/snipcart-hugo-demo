@@ -1,8 +1,8 @@
 +++
 cartImage = "/uploads/2018/05/15/axe-thumb.jpg"
 customOptions = []
-date = "2018-05-15T18:53:23+00:00"
-image = "/uploads/2018/05/15/axe.jpg"
+date = "2018-05-15T18:53:23Z"
+image = "/v1527779588/snipcart-hugo-demo/axe.jpg"
 price = 30
 shortDescription = "Swing with purpose."
 title = "Axe"

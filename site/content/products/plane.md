@@ -1,8 +1,8 @@
 +++
 cartImage = "/uploads/2018/05/15/plane-thumb.jpg"
 customOptions = []
-date = "2018-05-15T19:17:09+00:00"
-image = "/uploads/2018/05/15/plane.jpg"
+date = "2018-05-15T19:17:09Z"
+image = "/snipcart-hugo-demo/v1527779589/snipcart-hugo-demo/plane.jpg"
 price = 75
 shortDescription = "It's time to smooth things over."
 title = "Plane"

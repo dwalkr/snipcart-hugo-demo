@@ -7,8 +7,8 @@
     {{ with .Params.shortDescription }}
     data-item-description="{{ . }}"
     {{ end }}
-    {{ with .Params.cartImage }}
-    data-item-image="{{ . | relURL }}"
+    {{ with .Params.image }}
+    data-item-image="{{ $.Site.Params.cloudinary_base_url }}/w_50,h_50{{ . }}"
     {{ end }}
     {{ with .Params.customOptions }}
         {{- range $index, $option := . -}}

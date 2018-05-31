@@ -1,7 +1,7 @@
 +++
 cartImage = "/uploads/2018/05/16/knife-thumb.jpg"
-date = "2018-05-16T19:09:25+00:00"
-image = "/uploads/2018/05/16/knife.jpg"
+date = "2018-05-16T19:09:25Z"
+image = "/v1527779598/snipcart-hugo-demo/knife.jpg"
 price = 40
 shortDescription = "Stay sharp."
 title = "Knife"

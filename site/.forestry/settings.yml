@@ -7,7 +7,7 @@ sections:
   products:
     default_front_matter_template: products
 upload_dir: snipcart-hugo-demo
-public_path: "/snipcart-hugo-demo"
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"

@@ -3,9 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
-sections:
-  site/content/products:
-    default_front_matter_template: products
+sections: 
 upload_dir: snipcart-hugo-demo
 public_path: ''
 front_matter_path: ''

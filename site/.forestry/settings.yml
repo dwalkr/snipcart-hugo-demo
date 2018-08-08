@@ -14,7 +14,7 @@ sections:
   label: Products
   create: all
   match: "**/*"
-upload_dir: static/uploads
+upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: 

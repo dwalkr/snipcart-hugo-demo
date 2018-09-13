@@ -1,0 +1,9 @@
+---
+label: Checkbox option
+hide_body: false
+is_partial: true
+fields:
+- type: include
+  name: essential
+  label: Essential
+  template: base-product-option

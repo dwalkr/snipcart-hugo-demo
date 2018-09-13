@@ -1,0 +1,27 @@
+---
+label: Advanced dropdown option
+hide_body: false
+is_partial: true
+fields:
+- type: include
+  name: essential
+  label: Essential
+  template: base-product-option
+- type: field_group_list
+  name: options
+  label: Options
+  fields:
+  - type: text
+    name: optionName
+    label: Option Name
+    config:
+      required: true
+  - type: number
+    name: priceAdjustment
+    label: Price Adjustment
+    description: Enter the amount that this option will modify the base price
+    default: '0.00'
+    config:
+      step: ".01"
+  config:
+    labelField: optionName

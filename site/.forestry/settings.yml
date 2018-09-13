@@ -5,18 +5,13 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
-  path: site/content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: site/content/products
   label: Products
   create: all
   match: "**/*"
-upload_dir: site/static/uploads
-public_path: "/uploads"
+upload_dir: snipcart-hugo-demo
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":year/:month:/:filename:"
+file_template: ":filename:"
 version: 0.38.1

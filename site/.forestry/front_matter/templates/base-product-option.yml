@@ -1,0 +1,13 @@
+---
+label: Base product option
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Name
+  name: name
+  config:
+    required: true
+- type: boolean
+  name: required
+  label: Required

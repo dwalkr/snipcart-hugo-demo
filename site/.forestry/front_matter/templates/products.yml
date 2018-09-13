@@ -1,0 +1,40 @@
+---
+label: Products
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: number
+  config:
+    step: ".01"
+    required: true
+  label: Price
+  name: price
+- type: textarea
+  name: shortDescription
+  label: Short Description
+  description: Shows on product and cart pages
+- type: file
+  name: image
+  label: Image
+  description: Displays on product page
+- type: blocks
+  name: customOptions
+  label: Custom Options
+  template_types:
+  - text-option
+  - text-block-option
+  - checkbox-option
+  - simple-dropdown-option
+  - advanced-dropdown-option
+pages:
+- site/content/products/axe.md
+- site/content/products/gloves.md
+- site/content/products/chainsaw.md
+- site/content/products/knife.md
+- site/content/products/boots.md
+- site/content/products/plane.md

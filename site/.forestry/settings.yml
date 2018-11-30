@@ -9,6 +9,12 @@ sections:
   label: Products
   create: all
   match: "**/*"
+- type: heading
+  label: Site Settings
+- type: document
+  path: site/config.toml
+  label: Configuration
+  match: "**/*"
 upload_dir: snipcart-hugo-demo
 public_path: ''
 front_matter_path: ''
